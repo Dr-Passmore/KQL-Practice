@@ -3,4 +3,4 @@ SecurityEvent
 | where EventID == 4624 // successful login EventID
 | summarize count() by Account
 | order by Account asc
-
+| project Account, SuccessfulLogons=count_
