@@ -1,0 +1,4 @@
+// Provides a break down of the coloumns in the table
+
+SecurityEvent
+| getschema 
